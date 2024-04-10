@@ -1,0 +1,14 @@
+//Represents a bill for a guest's stay
+public class Bill {
+    private int billId;
+    private Reservation reservation;
+    private double totalAmount;
+
+    public Bill(int billId, Reservation reservation, double totalAmount) {
+        this.billId = billId;
+        this.reservation = reservation;
+        this.totalAmount = totalAmount;
+    }
+
+    // Getters and setters and other methods needs to be implemented 
+}

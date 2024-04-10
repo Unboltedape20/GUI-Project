@@ -1,0 +1,15 @@
+import java.util.*;
+//Represents a guest staying at the hotel.
+public class Guest {
+    private String name;
+    private String contactInfo;
+    private List<Reservation> reservations;
+
+    public Guest(String name, String contactInfo) {
+        this.name = name;
+        this.contactInfo = contactInfo;
+        this.reservations = new ArrayList<>();
+    }
+
+    // Getters and setters
+}

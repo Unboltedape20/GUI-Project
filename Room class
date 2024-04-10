@@ -1,0 +1,21 @@
+import java.util.*;
+//This class represents a room in the hotel
+public class Room {
+    private int roomNumber;
+    private RoomType type;
+    private boolean isAvailable;
+    private double price;
+
+    public Room(int roomNumber, RoomType type, double price) {
+        this.roomNumber = roomNumber;
+        this.type = type;
+        this.isAvailable = true;
+        this.price = price;
+    }
+
+    // Getters and setters
+}
+
+enum RoomType {
+    SINGLE, DOUBLE, SUITE, DELUXE
+}

@@ -1,0 +1,16 @@
+import java.util.*;
+//Represents the hotel
+public class Hotel {
+    private List<Room> rooms;
+    private List<Reservation> reservations;
+    private LoyaltyProgram loyaltyProgram;
+
+    public Hotel() {
+        this.rooms = new ArrayList<>();
+        this.reservations = new ArrayList<>();
+        this.loyaltyProgram = new LoyaltyProgram();
+    }
+
+    // Methods to be implemented for managing hotel operations
+    //checkRoomAvailability, makeReservation, processCheckIn, processCheckOut, generateBill
+}

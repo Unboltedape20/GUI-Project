@@ -1,0 +1,19 @@
+//Represents a reservation made by a guest
+import java.util.*;
+public class Reservation {
+    private int reservationId;
+    private Guest guest;
+    private Room room;
+    private Date checkInDate;
+    private Date checkOutDate;
+
+    public Reservation(int reservationId, Guest guest, Room room, Date checkInDate, Date checkOutDate) {
+        this.reservationId = reservationId;
+        this.guest = guest;
+        this.room = room;
+        this.checkInDate = checkInDate;
+        this.checkOutDate = checkOutDate;
+    }
+
+    // Getters and setters
+}

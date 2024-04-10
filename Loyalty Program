@@ -1,0 +1,14 @@
+import java.util.*;
+//Manages the hotel's loyalty program
+public class LoyaltyProgram {
+    private Map<Guest, Integer> pointsMap;
+    private Map<Integer, String> rewardsMap;
+
+    public LoyaltyProgram() {
+        this.pointsMap = new HashMap<>();
+        this.rewardsMap = new HashMap<>();
+    }
+
+    // Methods to be implemented for loyalty points and reward
+    //addPoints, getPoints, redeemPoints, getRewards
+}
